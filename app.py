@@ -1,17 +1,5 @@
 import streamlit as st
 
-# Set background color and image
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://onlinejpgtools.com/images/examples-onlinejpgtools/mountain-scene.jpg");
-background-size: cover;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
 st.title('Find the Largest Number')
 
 # Get user input for three numbers
@@ -28,4 +16,4 @@ else:
     largest = num3
 
 # Display the largest number to the user
-st.subheader(f'The largest number is {largest}.')
+st.write(f'The largest number is {largest}.')
