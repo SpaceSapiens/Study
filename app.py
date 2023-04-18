@@ -1,5 +1,14 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png");
+    background-size: cover;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title('Find the Largest Number')
 
 # Get user input for three numbers
