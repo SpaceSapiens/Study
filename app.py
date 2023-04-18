@@ -4,7 +4,7 @@ import streamlit as st
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png");
+background-image: url("https://gumlet.assettype.com/swarajya%2F2021-12%2F886904c7-7e9f-4933-a9e9-121d1c4b7cb5%2F3191ce98_5936_4228_a8ac_462050554f0d.jpg?q=75&auto=format%2Ccompress&w=400&dpr=2.6");
 background-size: cover;
 }
 </style>
