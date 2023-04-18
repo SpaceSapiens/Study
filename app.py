@@ -1,13 +1,16 @@
 import streamlit as st
 
-st.markdown("""
+# Set background color and image
+page_bg_img = '''
 <style>
 body {
-    background-image: url("https://hss.iitm.ac.in/wp-content/uploads/2018/12/DJ-Logo.jpg");
-    background-size: cover;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png");
+background-size: cover;
 }
 </style>
-""", unsafe_allow_html=True)
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title('Find the Largest Number')
 
