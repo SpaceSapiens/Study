@@ -16,4 +16,4 @@ else:
     largest = num3
 
 # Display the largest number to the user
-st.write(f'The largest number is {largest}.')
+st.subheader(f'The largest number is {largest}.')
